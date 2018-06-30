@@ -1,3 +1,17 @@
+// fires the code when you press the enter on the keyboard
+var btn = document.getElementById("commentText");
+btn.addEventListener('keypress', function enterKey(e) {
+	if (e.keyCode == 13) {
+		appear();
+	}; 
+}, false);
+
+
+
+
+
+
+// function that fires the code when u click on send button on the page
 function appear() {
 	// gave the input a variable to make life easier
 	var list = document.getElementById("commentInput").value;

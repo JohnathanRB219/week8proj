@@ -1,0 +1,22 @@
+.header{
+	text-align: center;
+}
+#comment{
+	text-align: center;
+	margin: 75px;
+}
+#commentInput{
+	margin-right: 16%;
+}
+#commentText{
+	margin: 25px;
+}
+#commentList{
+	
+	margin: 25px;
+	list-style: none;
+
+}
+li{
+	color: cyan;
+}
